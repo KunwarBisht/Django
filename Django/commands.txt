@@ -1,0 +1,16 @@
+django-admin startproject projectname
+python manage.py runserver
+project consist of webapps
+webapps: python manage.py startapp webapp
+Image2:
+url : url of the page
+models: databse model and meta data.
+views : enduser view
+
+#database migration
+python manage.py makemigrations
+python manage.py makemigrations blog
+python manage.py sqlmigrate blog 0001
+
+##ADMIN FILE IN DJANGO
+PYTHON  manage.py createsuperuser 
